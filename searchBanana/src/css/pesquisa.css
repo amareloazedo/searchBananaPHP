@@ -1,0 +1,87 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #43423e;
+  color: #43423e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10pt;
+  font-weight: 550;
+}
+
+.btn-banana {
+  background-color: #edd55a;
+  color: #43423e;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-banana:hover {
+  opacity: 80%;
+}
+
+.divForm {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+}
+
+.form-pesquisa {
+  flex: 1;
+  background-color: #f3f2e0;
+  align-items: center;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 330px;
+  padding: 30px 40px 30px 40px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.form-pesquisa::placeholder {
+  color: #43423e;
+}
+
+.form-pesquisa .checkbox {
+  font-weight: 400;
+}
+
+.form-pesquisa .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-pesquisa .form-control:focus {
+  box-shadow: 0 0 3px #43423e;
+  outline: none;
+  transition: 0.3s;
+}
+
+.form-pesquisa input{
+  margin-bottom: 10px;
+  text-decoration: none;
+  border: 0;
+  border-radius: 4px;
+}
+
+.text-banana {
+    color:#43423e;
+    font-weight:normal;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,15 @@
+/* Apenas um comentário */
+
+.btn-savage {
+	background: #2e633c;
+	color: #fff;
+}
+
+.btn-savage:hover {
+	background: #1f4028;
+	color: #fff;
+}
+
+.bg-savage {
+	background: #2e633c;
+}
